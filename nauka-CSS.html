@@ -1,168 +1,178 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nauka CSS</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
+  <body>
     <header id="top">
-        <nav class="navi">
-            <a class="navi-link" href="index.html">Strona główna</a>
-            <a class="navi-link" href="nauka-html.html">Nauka HTML</a>
-            <a class="navi-link" href="nauka-CSS.html">Nauka CSS</a>
-            <a class="navi-link" href="nauka-javascript.html">Nauka JavaScript</a>
-            <a class="navi-link" href="rozwoj-strony.html">Rozwój strony</a>
-        </nav>
+      <nav class="navi">
+        <a class="navi-link" href="index.html">Strona główna</a>
+        <a class="navi-link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navi-link" href="nauka-CSS.html">Nauka CSS</a>
+        <a class="navi-link" href="nauka-javascript.html">Nauka JavaScript</a>
+        <a class="navi-link" href="rozwoj-strony.html">Rozwój strony</a>
+      </nav>
     </header>
 
     <main>
+      <header class="main-header">
+        <img class="home-img" src="CSS3_logo_250_350.png" alt="Logo CSS3" />
+        <h1 class="h1-header">Nauka CSS</h1>
+      </header>
 
-        <header class="main-header">
-            <img class="home-img" src="CSS3_logo_250_350.png" alt="Logo CSS3" />
-            <h1 class="h1-header">Nauka CSS</h1>
-        </header>
+      <section>
+        <h2 class="h2-header">Leo style: Kroku kroku...</h2>
 
-        <section>
-            <h2 class="h2-header"> Leo style: Kroku kroku...</h2>
+        <article>
+          <h3 class="h3-header">TYDZIEN III</h3>
 
-            <article>
-                <h3 class="h3-header">TYDZIEN III</h3>
+          <article class="item">
+            <h4 class="h4-header">Jeszcze trochę o stylowaniu</h4>
+            <ul>
+              <li>
+                Styl liniowy ( inline) - Styl przy znaczniku z wykorzystaniem
+                atrybutu style - nie ma się co rozpisywać, po prostu nie
+                używamy<br />
+                <b
+                  >&lt;<span class="text-color-1">znacznik </span>
+                  <span class="text-color-2">style=”color:yellow;”</span>&gt;
+                  <span class="text-color-3">treść</span>&lt;/
+                  <span class="text-color-1">znacznik</span>&gt;</b
+                >
+              </li>
+              <li>
+                Stylowanie klasami<br />
+                <b
+                  >&lt;<span class="text-color-1">znacznik </span>
+                  <span class="text-color-2">class=”name”</span>&gt;
+                  <span class="text-color-3">treść</span>&lt;/
+                  <span class="text-color-1">znacznik</span>&gt;</b
+                ><br />
+                Aby wystylować taką klasę używamy selektora klasy:
+                <b><span class="text-color-2">.name</span></b>
+              </li>
+              <li>
+                Stylowanie za pomocą id<br />
+                <b
+                  >&lt;<span class="text-color-1">znacznik </span>
+                  <span class="text-color-2">id=”name”</span>&gt;
+                  <span class="text-color-3">treść</span>&lt;/
+                  <span class="text-color-1">znacznik</span>&gt;</b
+                ><br />
+                Aby wystylować taką klasę używamy selektora id:
+                <b><span class="text-color-2">#name</span></b>
+              </li>
+              <li>
+                Jest jeszcze coś takiego jak
+                <b><span class="text-color-2">!important</span></b> którego nie
+                powinniśmy używać ponieważ nadpisuje wszystkie inne rzeczy które
+                są zdefiniowane.
+              </li>
+            </ul>
+          </article>
 
-                <article class="item">
-                    <h4 class="h4-header">Jeszcze trochę o stylowaniu</h4>
-                    <ul>
-                        <li>
-                            Styl liniowy ( inline) - Styl przy znaczniku z wykorzystaniem atrybutu style - nie ma się co rozpisywać, po prostu nie używamy<br>
-                            <b>&lt;<span class="text-color-1">znacznik </span>
-                                <span class="text-color-2">style=”color:yellow;”</span>&gt;
-                                <span class="text-color-3">treść</span>&lt;/
-                                <span class="text-color-1">znacznik</span>&gt;</b>
-                        </li>
-                        <li>
-                            Stylowanie klasami<br>
-                            <b>&lt;<span class="text-color-1">znacznik </span>
-                                <span class="text-color-2">class=”name”</span>&gt;
-                                <span class="text-color-3">treść</span>&lt;/
-                                <span class="text-color-1">znacznik</span>&gt;</b><br>
-                            Aby wystylować taką klasę używamy selektora klasy: <b><span
-                                    class="text-color-2">.name</span></b>
-                        </li>
-                        <li>
-                            Stylowanie za pomocą id<br>
-                            <b>&lt;<span class="text-color-1">znacznik </span>
-                                <span class="text-color-2">id=”name”</span>&gt;
-                                <span class="text-color-3">treść</span>&lt;/
-                                <span class="text-color-1">znacznik</span>&gt;</b><br>
-                            Aby wystylować taką klasę używamy selektora id: <b><span
-                                    class="text-color-2">#name</span></b>
-                        </li>
-                        <li>
-                            Jest jeszcze coś takiego jak <b><span class="text-color-2">!important</span></b> którego nie
-                            powinniśmy używać ponieważ nadpisuje wszystkie inne rzeczy które są zdefiniowane.
-                        </li>
-                    </ul>
-                </article>
+          <article class="item">
+            <h4 class="h4-header">Specyficzność w CSS &#129322;</h4>
+            <ul>
+              <li>
+                Jest coś takiego jak specyficzność w CSS i najlepiej podejść do
+                tego metodą medalową :)<br />
+                <b>| !important | style="" | #name | .name | element |</b>
+              </li>
+              <li>
+                Jeśli specyficzność jest równa - pierwszeństwo ma selektor
+                "bliżej" elementu
+              </li>
+              <li>
+                Dodajemy klasy do wszystkich elementów i unikamy zagnieżdżania
+                co rozwiąże problem z liczeniem specyficzności.
+              </li>
+              <li>
+                Nie zaczynaj od cyfry.
+              </li>
+              <li>
+                Staraj się, żeby element miał jedną klasę (nie zwiększaj
+                specyficzności bez potrzeby).
+              </li>
+            </ul>
+          </article>
 
-                <article class="item">
-                    <h4 class="h4-header">Specyficzność w CSS &#129322;</h4>
-                    <ul>
-                        <li>
-                            Jest coś takiego jak specyficzność w CSS i najlepiej podejść do tego metodą medalową :)<br>
-                            <b>| !important | style="" | #name | .name | element |</b>
-                        </li>
-                        <li>
-                            Jeśli specyficzność jest równa - pierwszeństwo ma selektor "bliżej" elementu
-                        </li>
-                        <li>
-                            Dodajemy klasy do wszystkich elementów i unikamy zagnieżdżania co rozwiąże problem z liczeniem specyficzności.
-                        </li>
-                        <li>
-                            Nie zaczynaj od cyfry.
-                        </li>
-                        <li>
-                            Staraj się, żeby element miał jedną klasę (nie zwiększaj specyficzności bez potrzeby).
-                        </li>
-                    </ul>
-                </article>
+          <article class="item">
+            <h4 class="h4-header">Nazewnictwo klas</h4>
+            <ul>
+              <li>
+                Używaj pojedynczych słów z j. angielskiego a jeśli potrzeba
+                więcej robimy to poprzez kebab-case.
+              </li>
+              <li>
+                Nazywaj rzeczy zgodnie z ich funkcją na stronie.
+              </li>
+              <li>
+                Startuj z małej litery np. header nie Header.
+              </li>
+              <li>
+                Nie zaczynaj od cyfry.
+              </li>
+              <li>
+                Staraj się, żeby element miał jedną klasę (nie zwiększaj
+                specyficzności bez potrzeby).
+              </li>
+            </ul>
+          </article>
+        </article>
 
-                <article class="item">
-                    <h4 class="h4-header">Nazewnictwo klas</h4>
-                    <ul>
-                        <li>
-                            Używaj pojedynczych słów z j. angielskiego a jeśli potrzeba więcej robimy to poprzez kebab-case.
-                        </li>
-                        <li>
-                            Nazywaj rzeczy zgodnie z ich funkcją na stronie.
-                        </li>
-                        <li>
-                            Startuj z małej litery np. header nie Header.
-                        </li>
-                        <li>
-                            Nie zaczynaj od cyfry.
-                        </li>
-                        <li>
-                            Staraj się, żeby element miał jedną klasę (nie zwiększaj specyficzności bez potrzeby).
-                        </li>
-                    </ul>
-                </article>
+        <article>
+          <h3 class="h3-header">TYDZIEN II</h3>
 
-            </article>
-
-            <article>
-                <h3 class="h3-header">TYDZIEN II</h3>
-
-                <article class="item">
-                    <h4 class="h4-header">Podstawy CSS</h4>
-                    <ul>
-                        <li>
-                            CSS =Cascading Style Sheet - odpowiada za prezentację, wpływa na wygląd elementów HTML na
-                            ekranie, wydrukach itp.
-                        </li>
-                        <li>
-                            Przeglądarki potrafią różnie interpretować CSS.
-                        </li>
-                        <li>
-                            Stylowanie HTML odbywa się w następujący:<br>
-                            <ul>
-                                <li>
-                                    Wpisując reguły CSS w z znacznik &lt;style&gt; umieszczony w sekcji &lt;head&gt;
-                                </li>
-                                <li>
-                                    Dodanie zewnętrznego pliku stylów umieszczonego w &lt;head&gt; za pomocą znacznika
-                                    &lt;link&gt;<br>
-                                    &lt;link href="style.css" rel="stylesheet" type="text/css"&gt;
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Budowa reguły CSS:<br>
-                            <b><span class="text-color-1">selektor{</span><br>
-                                <span class="text-color-2">właściwość:</span>
-                                <span class="text-color-3">wartość;</span><br>
-                                <span class="text-color-1">}</span></b>
-                        </li>
-                    </ul>
-                </article>
-
-                
-
-            </article>
-
-        </section>
-
+          <article class="item">
+            <h4 class="h4-header">Podstawy CSS</h4>
+            <ul>
+              <li>
+                CSS =Cascading Style Sheet - odpowiada za prezentację, wpływa na
+                wygląd elementów HTML na ekranie, wydrukach itp.
+              </li>
+              <li>
+                Przeglądarki potrafią różnie interpretować CSS.
+              </li>
+              <li>
+                Stylowanie HTML odbywa się w następujący:<br />
+                <ul>
+                  <li>
+                    Wpisując reguły CSS w z znacznik &lt;style&gt; umieszczony w
+                    sekcji &lt;head&gt;
+                  </li>
+                  <li>
+                    Dodanie zewnętrznego pliku stylów umieszczonego w
+                    &lt;head&gt; za pomocą znacznika &lt;link&gt;<br />
+                    &lt;link href="style.css" rel="stylesheet"
+                    type="text/css"&gt;
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Budowa reguły CSS:<br />
+                <b
+                  ><span class="text-color-1">selektor{</span><br />
+                  <span class="text-color-2">właściwość:</span>
+                  <span class="text-color-3">wartość;</span><br />
+                  <span class="text-color-1">}</span></b
+                >
+              </li>
+            </ul>
+          </article>
+        </article>
+      </section>
     </main>
 
     <footer class="main-footer">
-        <p class="parag">
-            Copyright 2020 © Mariusz Wójcik <a href=#top>Przejdz na górę strony</a>
-        </p>
+      <p class="parag">
+        Copyright 2020 © Mariusz Wójcik
+        <a href="#top">Przejdz na górę strony</a>
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>

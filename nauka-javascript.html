@@ -1,173 +1,176 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nauka JavaScript</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
+  <body>
     <header id="top">
-        <nav class="navi">
-            <a class="navi-link" href="index.html">Strona główna</a>
-            <a class="navi-link" href="nauka-html.html">Nauka HTML</a>
-            <a class="navi-link" href="nauka-CSS.html">Nauka CSS</a>
-            <a class="navi-link" href="nauka-javascript.html">Nauka JavaScript</a>
-            <a class="navi-link" href="rozwoj-strony.html">Rozwój strony</a>
-        </nav>
+      <nav class="navi">
+        <a class="navi-link" href="index.html">Strona główna</a>
+        <a class="navi-link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navi-link" href="nauka-CSS.html">Nauka CSS</a>
+        <a class="navi-link" href="nauka-javascript.html">Nauka JavaScript</a>
+        <a class="navi-link" href="rozwoj-strony.html">Rozwój strony</a>
+      </nav>
     </header>
 
     <main>
+      <header class="main-header">
+        <img class="home-img" src="JS_logo_250_350.png" alt="Logo CSS3" />
+        <h1 class="h1-header">Nauka JavaScript</h1>
+      </header>
 
-        <header class="main-header">
-            <img class="home-img" src="JS_logo_250_350.png" alt="Logo CSS3" />
-            <h1 class="h1-header">Nauka JavaScript</h1>
-        </header>
+      <section>
+        <h2 class="h2-header">Schemat postępowania...</h2>
 
-        <section>
-            <h2 class="h2-header"> Schemat postępowania...</h2>
+        <article>
+          <h3 class="h3-header">TYDZIEN III</h3>
 
-            <article>
-                <h3 class="h3-header">TYDZIEN III</h3>
+          <article class="item">
+            <h4 class="h4-header">JavaScript != Java</h4>
+            <ul>
+              <li>
+                Będziemy uczyć się ECMAScript 2015+(ES6+)
+                <ul>
+                  <li>
+                    ECMAScript jest to ustandaryzowany przez organizację ECMA
+                    skryptowy język programowania.
+                  </li>
+                  <li>
+                    JavaScript implementuje rzeczy ze specyfikacji ECMAScript.
+                  </li>
+                  <li>
+                    Rozwój ECMAScript mocno przyspieszył przez szerokie
+                    wykorzystywanie JavaScriptu.
+                  </li>
+                  <li>
+                    ES6 (i nowsze) wprowadzają wiele udogodnień dla developerów.
+                  </li>
+                  <li>
+                    Nowe feature'y mogą nie być wspierane we wszystkich
+                    przeglądarkach.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Z czego składa się JavaScript?
+                <ul>
+                  <li>
+                    Wartości
+                  </li>
+                  <li>
+                    Operacje porównywania
+                  </li>
+                  <li>
+                    Zmienne
+                  </li>
+                  <li>
+                    Literały
+                  </li>
+                  <li>
+                    Funkcje
+                  </li>
+                  <li>
+                    Obiekty
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </article>
 
-                <article class="item">
-                    <h4 class="h4-header">JavaScript != Java</h4>
-                    <ul>
-                        <li>
-                            Będziemy uczyć się ECMAScript 2015+(ES6+)
-                            <ul>
-                                <li>
-                                    ECMAScript jest to ustandaryzowany przez organizację ECMA skryptowy język
-                                    programowania.
-                                </li>
-                                <li>
-                                    JavaScript implementuje rzeczy ze specyfikacji ECMAScript.
-                                </li>
-                                <li>
-                                    Rozwój ECMAScript mocno przyspieszył przez szerokie wykorzystywanie JavaScriptu.
-                                </li>
-                                <li>
-                                    ES6 (i nowsze) wprowadzają wiele udogodnień dla developerów.
-                                </li>
-                                <li>
-                                    Nowe feature'y mogą nie być wspierane we wszystkich przeglądarkach.
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Z czego składa się JavaScript?
-                            <ul>
-                                <li>
-                                    Wartości
-                                </li>
-                                <li>
-                                    Operacje porównywania
-                                </li>
-                                <li>
-                                    Zmienne
-                                </li>
-                                <li>
-                                    Literały
-                                </li>
-                                <li>
-                                    Funkcje
-                                </li>
-                                <li>
-                                    Obiekty
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+          <article class="item">
+            <h4 class="h4-header">Poskryptujmy!</h4>
+            <ul>
+              <li>
+                Znacznik &lt;script&gt; - dodajemy na samym dole przed
+                zamknięciem body
+                <ul>
+                  <li>
+                    <b
+                      ><span class="text-color-1">&lt;script&gt;<br /></span>
+                      <span class="text-color-3">alert('Siema!')<br /></span>
+                      <span class="text-color-1">&lt;/script&gt;</span></b
+                    >
+                  </li>
+                  <li>
+                    <b
+                      ><span class="text-color-1">&lt;script<br /></span>
+                      <span class="text-color-3">src="main.js"</span>
+                      <span class="text-color-1"
+                        >&gt;<br />
+                        &lt;/script&gt;</span
+                      ></b
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Backtick / backquote <kbd>`</kbd> - używamy kiedy zamieszczamy
+                jednocześnie tekst i stałe:<br />
+                <b
+                  ><span class="text-color-1">console.log(`Nazywam się ${</span>
+                  <span class="text-color-2">name</span>
+                  <span class="text-color-1">} i mam ${</span>
+                  <span class="text-color-2">age</span>
+                  <span class="text-color-1">} lat`);</span></b
+                >
+              </li>
+              <li>
+                Do nazywania stałych / zmiennych używamy camelCase.
+              </li>
+            </ul>
+          </article>
 
-                </article>
+          <article class="item">
+            <h4 class="h4-header">Trochę praktyki JS</h4>
+            <ul>
+              <li>
+                alert('Siema!'); - wyskakujące okienko
+              </li>
+              <li>
+                console.log('Siema!'); - zapis w konsoli devtools
+              </li>
+              <li>
+                stałe w JS (tekst): const name = 'Mariusz'
+              </li>
+              <li>
+                stałe w JS (liczby): const age = 18
+              </li>
+            </ul>
+          </article>
+        </article>
 
-                <article class="item">
-                    <h4 class="h4-header">Poskryptujmy!</h4>
-                    <ul>
-                        <li>
-                            Znacznik &lt;script&gt; - dodajemy na samym dole przed zamknięciem body
-                            <ul>
-                                <li>
-                                    <b><span class="text-color-1">&lt;script&gt;<br></span>
-                                        <span class="text-color-3">alert('Siema!')<br></span>
-                                        <span class="text-color-1">&lt;/script&gt;</span></b>
-                                </li>
-                                <li>
-                                    <b><span class="text-color-1">&lt;script<br></span>
-                                        <span class="text-color-3">src="main.js"</span>
-                                        <span class="text-color-1">&gt;<br>
-                                            &lt;/script&gt;</span></b>
-                                </li>
-                            </ul>                          
-                        </li>
-                        <li>
-                            Backtick / backquote <kbd>`</kbd> - używamy kiedy zamieszczamy jednocześnie tekst i stałe:<br>
-                            <b><span class="text-color-1">console.log(`Nazywam się ${</span>
-                                <span class="text-color-2">name</span>
-                                <span class="text-color-1">} i mam ${</span>
-                                <span class="text-color-2">age</span>
-                                <span class="text-color-1">} lat`);</span></b>
-                        </li>
-                        <li>
-                            Do nazywania stałych / zmiennych używamy camelCase.
-                        </li>
-                    </ul>
-                </article>
+        <article>
+          <h3 class="h3-header">TYDZIEN II</h3>
 
-                <article class="item">
-                    <h4 class="h4-header">Trochę praktyki JS</h4>
-                    <ul>
-                        <li>
-                            alert('Siema!'); - wyskakujące okienko
-                        </li>
-                        <li>
-                            console.log('Siema!'); - zapis w konsoli devtools
-                        </li>
-                        <li>
-                            stałe w JS (tekst): const name = 'Mariusz'
-                        </li>
-                        <li>
-                            stałe w JS (liczby): const age = 18
-                        </li>
-                    </ul>
-                </article>
-
-            </article>
-
-
-            <article>
-                <h3 class="h3-header">TYDZIEN II</h3>
-
-                <article class="item">
-                    <h4 class="h4-header">Robimy herbatę</h4>
-                    <ul>
-                        <li>
-                            JavaScript jest językiem programowania.
-                        </li>
-                        <li>
-                            Programowanie jest zamianą języka ludzkiego na język zrozumiały przez komputer.
-                        </li>
-                        <li>
-                            Język programowania ma swoją składnie, gramatykę i ortografię.
-                        </li>
-                    </ul>
-                </article>
-
-            </article>
-
-        </section>
-
+          <article class="item">
+            <h4 class="h4-header">Robimy herbatę</h4>
+            <ul>
+              <li>
+                JavaScript jest językiem programowania.
+              </li>
+              <li>
+                Programowanie jest zamianą języka ludzkiego na język zrozumiały
+                przez komputer.
+              </li>
+              <li>
+                Język programowania ma swoją składnie, gramatykę i ortografię.
+              </li>
+            </ul>
+          </article>
+        </article>
+      </section>
     </main>
 
     <footer class="main-footer">
-        <p class="parag">
-            Copyright 2020 © Mariusz Wójcik <a href=#top>Przejdz na górę strony</a>
-        </p>
+      <p class="parag">
+        Copyright 2020 © Mariusz Wójcik
+        <a href="#top">Przejdz na górę strony</a>
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>
