@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTF - Notatki Kursowe</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header id="top">
+        <nav class="navi">
+            <a class="navi-link" href="index.html">Strona główna</a>
+            <a class="navi-link" href="nauka-html.html">Nauka HTML</a>
+            <a class="navi-link" href="nauka-CSS.html">Nauka CSS</a>
+            <a class="navi-link" href="nauka-javascript.html">Nauka JavaScript</a>
+            <a class="navi-link" href="rozwoj-strony.html">Rozwój strony</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <header class="main-header">
+            <img class="home-img" src="wtf_logo.png" alt="Logo WTF" />
+            <h1 class="h1-header">Praktyczna nauka HTML, CSS i JavaScript</h1>
+        </header>
+
+        <section class="main-section">
+            <h2 class="h2-header">Co to za strona?</h2>
+            <p class="parag">
+                Dobre pytanie na które nie umiem jeszcze odpowiedzieć ;) Zaczyna się od pracy domowej podczas
+                <strong>szkolenia </strong><span class="WTF"> WTF: CO TEN FRONTEND </span>, więc nie ma co, wpis będzie
+                ewoluował wraz z ewolucją lub <em>rewolucją</em> strony.
+            </p>
+            <p class="parag">
+                Pierwszą rzecz już w takim razie mamy - strona domowa. Na niej będą się odbywały prace domowe, a przy
+                okazji w podstronach zapiszę informacje, które przydadzą mi się przy tworzeniu tej strony. Ma być wesoło
+                i eksperymentalnie więc to co będzie wybiegać poza kurs w danej chwili postaram się wyróżnić.
+            </p>
+            <p class="parag">
+                <strong>Strona jest podzielona tematycznie: Informacje ogólne, Nauka HTML, Nauka CSS, Nauka JavaScript i
+                    rozwój strony, to powinno ułatwić poszukiwanie właściwych informacji.</strong>
+            </p>
+
+            <p class="parag">
+                Linki... ciekawe rzeczy z kursu ze Slack'a czy skądkolwiek indziej.
+            </p>
+            <p class="parag">
+                No póki co całkiem biednie wygląda :D
+            </p>
+        </section>
+
+        <section>
+            <h2 class="h2-header">Informacje ogólne...</h2>
+
+            <article>
+                <h3 class="h3-header">TYDZIEŃ IV</h3>
+
+                <article class="item">
+                    <h4 class="h4-header">Wait for it...</h4>
+
+                </article>
+            </article>
+
+            <article>
+                <h3 class="h3-header">TYDZIEŃ III</h3>
+                <p class="parag">Tydzień mentalnie sponsorowany przez: <a
+                        href="https://www.youtube.com/watch?v=sCT50t-JAMw" target="_blank">Guardians of the Galaxy:
+                        Awesome Mix Vol. 1</a> &#127925;</p>
+
+                <article class="item">
+                    <h4 class="h4-header">Planowanie pracy... KANBAN</h4>
+                    <ul>
+                        <li>
+                            Planowanie pracy to podstawa, żeby śledzić postępy.
+                        </li>
+                        <li>
+                            Kanban to podział na 3 kolumny (skądś już to znamy...)
+                            <ul>
+                                <li>
+                                    TODO - do zrobienia
+                                </li>
+                                <li>
+                                    DOING - w trakcie (tutaj powinno znajdować się zawsze jedno zadanie)
+                                </li>
+                                <li>
+                                    DONE - zrobione
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Czasem są dodatkowe kolumny "testing" lub "to review" i dopiero potem "DOING".
+                        </li>
+                        <li>
+                            My użyjemy klasycznych trzech korzystając z portalu <a href="https://trello.com/"
+                                target="_blank">trello.com</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="item">
+                    <h4 class="h4-header">Opowieść o wężu, kebabie, wielbłądzie i Pascalu</h4>
+                    <ul>
+                        <li>
+                            Najtrudniejsza rzecz w programowaniu? - Nazywanie rzeczy!
+                        </li>
+                        <li>
+                            Mamy 4 rodzaje nazywania rzeczy, przedstawiają się następująco:
+                            <ul>
+                                <li>
+                                    camelCase - mySuperBoldHeader
+                                </li>
+                                <li>
+                                    kebab-case - my-super-bold-header
+                                </li>
+                                <li>
+                                    snake_case - my_super_bold_header
+                                </li>
+                                <li>
+                                    PascalCase - MySuperBoldHeader
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="item">
+                    <h4 class="h4-header">Jak działa przeglądarka?</h4>
+                    <ul>
+                        <li>
+                            HTTP = HyperText Transfer Protocol
+                        </li>
+                        <li>
+                            HTTPS = HyperText Transfer Protocol Secure
+                        </li>
+                        <li>
+                            URL = Uniform resource Locator
+                        </li>
+                        <li>
+                            HTTP to protokół do transportowania HTML oraz całej reszty widocznej na stronach
+                        </li>
+                        <li>
+                            Kody HTTP:
+                            <ul>
+                                <li>
+                                    1xx: hold on (Kody informacyjne)
+                                </li>
+                                <li>
+                                    2xx: here you go (OK)
+                                </li>
+                                <li>
+                                    3xx: go away (Szukasz w złym miejscu, przekieruję Cię bo wiem gdzie)
+                                </li>
+                                <li>
+                                    4xx you fucked up (Nie mam tego czego potrzebujesz)
+                                </li>
+                                <li>
+                                    5xx: I fucked up (Nie czuję się najlepiej... Błąd wewnętrzny serwera)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <kbd>/</kbd> jest istotną częścią ścieżek do zasobów
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="item">
+                    <h4 class="h4-header">Terminal... nie mylić z Arnoldem S.</h4>
+                    <ul>
+                        <li>
+                            Jest coś takiego jak <strong>Microsoft Windows Subsystem Linux</strong>, fajna sprawa,
+                            zainstalowałem, działa, VBCode od razu zaproponował wtyczkę i teraz terminal w VBCode
+                            uruchamia się linuxowy :)
+                        </li>
+                        <li>
+                            Mamy już terminal linuxowy więc komendy linuxowe w ramach przypomnienia:
+                            <ul>
+                                <li>
+                                    cd~ -przejście do katalogu domowego
+                                </li>
+                                <li>
+                                    ls -wypisanie zawartości katalogu (ls -la -wypisuje w postaci listy z plikami
+                                    ukrytymi)
+                                </li>
+                                <li>
+                                    pwd -wyświetlenie aktualnej ścieżki
+                                </li>
+                                <li>
+                                    mkdir nazwa-katalogu -stworzenie katalogu o nazwie nazwa-katalogu
+                                </li>
+                                <li>
+                                    code . -uruchomienie Visual Studio Code w aktualnym katalogu
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+            </article>
+            <article>
+                <h3 class="h3-header">TYDZIEŃ II</h3>
+                <p class="parag">Tydzień mentalnie sponsorowany przez: <a
+                        href="https://www.youtube.com/watch?v=-r679Hhs9Zs&list=PL7DlGI0vwP4S6tlQ-kMqrl6VCaN053_BN&index=1"
+                        target="_blank">The Very Best Of The Doors</a> &#127925; </p>
+                <article class="item">
+                    <h4 class="h4-header">Klucz do frontendu</h4>
+                    <ul>
+                        <li>
+                            Cebula, ogry i strony internetowe posiadają warstwy!
+                        </li>
+                        <li>
+                            A prezentują się one następująco:
+                            <ul>
+                                <li>
+                                    Warstwa 3 - Interakcja: JavaScript
+                                </li>
+                                <li>
+                                    Warstwa 2 - Prezentacja: CSS
+                                </li>
+                                <li>
+                                    Warstwa 1 - Semantyka: HTML
+                                </li>
+                                <li>
+                                    Warstwa 0 - TREŚĆ <strong>(CONTENT IS THE KING)</strong>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Te warstwy mieszkają w bloku, z każdym kolejnym piętrem w górę mają wpływ na wszystkich
+                            sąsiadów w dół :D
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="item">
+                    <h4 class="h4-header">Koniec żartów... HTML, CSS i magia programowania</h4>
+                    <ul>
+                        <li>
+                            HTML = HyperText Markup Language - więcej w sekcji <a href="nauka-html.html">Nauka
+                                HTML</a>
+                        </li>
+                        <li>
+                            CSS = Cascading Style Sheets - więcej w sekcji <a href="nauka-CSS.html">Nauka CSS</a>
+                        </li>
+                        <li>
+                            Programowanie jak gotowanie - więcej w sekcji <a href="nauka-javascript.html">Nauka
+                                JavaScript</a>
+                        </li>
+                    </ul>
+                </article>
+
+            </article>
+
+            <article>
+                <h3 class="h3-header">TYDZIEŃ I</h3>
+                <p class="parag">Tydzień mentalnie sponsorowany przez: <a
+                    href="https://www.youtube.com/watch?v=_Uu12zY01ts"
+                    target="_blank">Queen - Greatest Hits</a> &#127925; </p>
+                <article class="item">
+                    <h4 class="h4-header">Szkolenie Frontend</h4>
+                    <ul>
+                        <li>
+                            Zapowiada się 13 tygodni świetnej nauki i zabawy
+                        </li>
+                        <li>
+                            Chociaż patrząc na <a href="https://roadmap.sh/frontend" target="_blank">drogę
+                                fronendowca</a> można mieć lekko mieszane uczucia ;)
+                        </li>
+                        <li>
+                            Pierwsze instalacje: Visual Studio Code, Slack (nagle okazało się, że nie mam czasu
+                            przeczytać wszystkich wiadomości :D) i zabawa kodem przykładowej stronki.
+                        </li>
+                        <li>
+                            Pierwsze odkrycie: VSC nie sprawdza pisowni języka polskiego &lt;ściana&gt; - trzeba o
+                            tym
+                            pamiętać!
+                        </li>
+                    </ul>
+                </article>
+
+            </article>
+           
+        </section>
+
+        <section>
+            <h2 class="h2-header">Przydatne linki:</h2>
+            <ul>
+                <li><a href="https://dev.w3.org/html5/html-author/charref" target="_blank">Znaki jako tekst </a></li>
+                <li><a href="https://validator.w3.org/nu/#textarea" target="blank">Walidacja kodu</a></li>
+                <li><a href="https://coolors.co/" target="_blank">Palety kolorów</a></li>
+                <li><a href="https://roadmap.sh/frontend" target="_blank">Mapa Fronend'owca</a></li>
+                <li><a href="https://snook.ca/technical/colour_contrast/colour.html#fg=33FF33,bg=333333"
+                        target="blank">Colour Contrast Check</a></li>
+                <li><a href="https://www.w3.org/TR/html52/" target="_blank">Specyfikacja HTML</a></li>
+                <li><a href="https://www.w3.org/TR/CSS/" target="_blank">Specyfikacja CSS</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes" target="_blank">spis
+                        atrybutów "globalnych"</a></li>
+                <li><a href="http://www.kurshtml.edu.pl/html/emotikony,znaki.html" target="_blank">emoji</a></li>
+            </ul>
+        </section>
+
+        <footer class="main-footer">
+            <p class="parag">
+                Copyright 2020 © Mariusz Wójcik <a href=#top>Przejdz na górę strony</a>
+            </p>
+        </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
