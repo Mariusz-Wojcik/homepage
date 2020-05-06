@@ -7,15 +7,15 @@ body {
   background-color: #b9aeae;
 }
 
-.navi {
+.navigation {
   background-color: #003459;
   padding: 10px 0px;
   margin: 0px auto;
   max-width: 1140px;
 }
-.navi-link {
+.navigation__link {
   color: #ffffff;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .main-header {
@@ -26,34 +26,18 @@ body {
   max-width: 1140px;
 }
 
-.home-img {
+.main-header__image {
   height: 150px;
   vertical-align: middle;
   display: inline-block;
   margin-right: 100px;
 }
 
-.h1-header {
+.main-header__title {
   vertical-align: middle;
   display: inline-block;
   text-align: center;
   margin-right: 200px;
-}
-
-.h2-header {
-  margin: 10px;
-}
-
-.h3-header {
-  margin: 10px;
-  border-style: solid;
-  border-color: red;
-  border-width: 0px 0px 3px 0px;
-  width: fit-content;
-}
-
-.h4-header {
-  margin: 10px;
 }
 
 .main-section {
@@ -64,17 +48,59 @@ body {
   padding: 0px 0px 20px 0px;
 }
 
-section {
-  background-color: #ffffff;
-  max-width: 1000px;
-  height: auto;
-  margin: 0px auto;
-}
-
-.parag {
+.main-section__paragraph {
   margin: 0px 20px;
   font-size: 16px;
 }
+
+.main-section__title {
+  margin: 10px;
+}
+
+.main-section__WTF-font {
+  font-family: lazer84;
+  color: #f9c802;
+  background-color: #2d2241;
+  letter-spacing: 2px;
+}
+
+.main-article__week-title {
+  margin: 10px;
+  border-style: solid;
+  border-color: red;
+  border-width: 0px 0px 3px 0px;
+  width: fit-content;
+}
+
+.main-article__paragraph{
+  margin: 0px 20px;
+  font-size: 16px;
+}
+
+.article-section{
+  width: 100%;
+  height: auto;
+  background-color: #b4bdc0;
+  border: 1px solid #000000;
+  margin: 5px 0px;
+}
+
+.article-section__title {
+  margin: 10px;
+}
+
+.main-footer {
+  background: #414749;
+  padding: 25px 0;
+  margin: 0 auto;
+  max-width: 1140px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+
 
 .text-color-1 {
   color: #fa0000;
@@ -91,37 +117,9 @@ section {
   font-size: 18px;
 }
 
-.WTF {
-  font-family: lazer84;
-  color: #f9c802;
-  background-color: #2d2241;
-  letter-spacing: 2px;
-}
 
-.item {
-  width: 100%;
-  height: auto;
-  background-color: #b4bdc0;
-  border: 1px solid #000000;
-  margin: 5px 0px;
-}
 
-.item-out {
-  width: 100%;
-  height: auto;
-  background-color: #cbe06c;
-  border: 1px solid #000000;
-  margin: 5px 0px;
-}
 
-.main-footer {
-  background: #414749;
-  padding: 25px 0;
-  margin: 0 auto;
-  max-width: 1140px;
-  color: #ffffff;
-  text-align: center;
-}
 
 /* Przycisk np. Tab*/
 kbd {
