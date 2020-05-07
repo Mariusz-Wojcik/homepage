@@ -20,41 +20,41 @@
 
     <main>
       <header class="main-header">
-        <img class="home-img" src="HTML5_logo_250_350.png" alt="Logo HTML5" />
-        <h1 class="h1-header">Nauka HTML</h1>
+        <img class="main-header__image" src="HTML5_logo_250_350.png" alt="Logo HTML5" />
+        <h1 class="main-header__title">Nauka HTML</h1>
       </header>
 
-      <section>
-        <h2 class="h2-header">HTML Krok po kroku...</h2>
+      <section class="main-section">
+        <h2 class="main-section__title">HTML Krok po kroku...</h2>
 
-        <article>
-          <h3 class="h3-header">TYDZIEŃ III</h3>
+        <article class="main-article">
+          <h3 class="main-article__week-title">TYDZIEŃ III</h3>
 
-          <section class="item">
-            <h4 class="h4-header">Znaczników jest więcej...</h4>
-            <ul>
-              <li>
+          <section class="article-section">
+            <h4 class="article-section__title">Znaczników jest więcej...</h4>
+            <ul class="article-section__list">
+              <li class="article-section__list-item">
                 Prezentują się one następująco:
-                <ul>
-                  <li>
+                <ul class="article-section__list">
+                  <li class="article-section__list-item">
                     <strong>&lt;br&gt;</strong> - nowa linia (znacznik
                     pojedynczy)
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <strong>&lt;b&gt;</strong> - pogrubienie oraz
                     <strong>&lt;i&gt;</strong> - kursywa/italic - Nie mają
                     dużego znaczenia semantycznego - służą do wyróżnienia
                     fragmentu z tekstu otaczającego
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <strong>&lt;strong&gt;</strong> - pogrubienie - podkreśla
                     wysoką istotność i poważność frazy w nim zawartej
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <strong>&lt;em&gt;</strong> - kursywa/italic - podkreśla, że
                     tekst może mieć inne znaczenie (np. ironia)
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <b
                       >&lt;<span class="text-color-1">element</span>
                       <span class="text-color-2">id="moj-identyfikator"</span
@@ -63,7 +63,7 @@
                     - atrybut id identyfikuje element - przydaje się do
                     wewnętrznej nawigacji
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <strong>&lt;a&gt;</strong> - linki / łącza wewnątrz
                     dokumentu
                     <br />
@@ -87,8 +87,9 @@
                     >
                     - łącze wewnętrzne
                   </li>
-                  <li><strong>&lt;nav&gt;</strong> - nawigacja</li>
-                  <li>
+                  <li class="article-section__list-item"><strong>&lt;nav&gt;</strong> - nawigacja
+                  </li>
+                  <li class="article-section__list-item">
                     <b
                       >&lt;<span class="text-color-1">img</span>
                       <span class="text-color-2">src="" alt=""</span>&gt;</b
@@ -107,13 +108,13 @@
             </ul>
           </section>
 
-          <section class="item">
+          <section  class="article-section">
             <h4 class="h4-header">Trochę o nawigacji...</h4>
-            <ul>
-              <li>
+            <ul class="article-section__list">
+              <li class="article-section__list-item">
                 Przeglądarka analizuje tylko to co jest w &lt;main&gt;.
               </li>
-              <li>
+              <li class="article-section__list-item">
                 Każdą treść która jest powtarzalna wrzucamy poza &lt;main&gt; na
                 przykład w &lt;header&gt; który na każdej stronie będzie
                 wyglądał tak samo.<br />
@@ -122,11 +123,11 @@
             </ul>
           </section>
 
-          <section class="item-out">
+          <section class="article-section article-section--outside">
             <h4 class="h4-header">headingsMap (out of WTF)</h4>
-            <ul>
-              <li>
-                <a
+            <ul class="article-section__list">
+              <li class="article-section__list-item">
+                <a  class = "article-section__link"
                   href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en"
                   target="_blank"
                   >headingsMap</a
@@ -138,21 +139,21 @@
           </section>
         </article>
 
-        <article>
-          <h3 class="h3-header">TYDZIEŃ II</h3>
+        <article class="main-article">
+          <h3 class="main-article__week-title">TYDZIEŃ II</h3>
 
-          <section class="item">
+          <section class="article-section">
             <h4 class="h4-header">Podstawy HTML</h4>
-            <ul>
-              <li>
+            <ul class="article-section__list">
+              <li class="article-section__list-item">
                 HTML = HyperText Markup Language - odpowiada za treść a
                 dokładniej za jej właściwe opakowanie. Nie jest to język
                 programowania tylko język znaczników.
               </li>
-              <li>
+              <li class="article-section__list-item">
                 <strong>Semantyczny = mający znaczenie</strong>
               </li>
-              <li>
+              <li class="article-section__list-item">
                 HTML składa się ze znaczników/tagów/elementów
                 <br />
                 <b
@@ -164,61 +165,64 @@
                   >&gt;</b
                 >
               </li>
-              <li>
+              <li class="article-section__list-item">
                 Poznane znaczniki:
-                <ul>
-                  <li>
+                <ul class="article-section__list">
+                  <li class="article-section__list-item">
                     <strong>&lt;main&gt;</strong> - Główna część dokumentu
                   </li>
-                  <li><strong>&lt;section&gt;</strong> - Sekcje dokumentu</li>
-                  <li>
+                  <li class="article-section__list-item"><strong>&lt;section&gt;</strong> - Sekcje dokumentu
+                  </li>
+                  <li class="article-section__list-item">
                     <strong>&lt;article&gt;</strong> - Samodzielne treści (np.
                     Gazeta, dział sportowy -czyli sekcja- i tu wjeżdża na białym
                     koniu samodzielny artykuł)
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <strong>&lt;header&gt;</strong> - Nagłówek - dokumentu /
                     sekcji / artykułu (Każda sekcja i każdy artykuł posiada
                     nagłówek, możesz być pewien)
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <strong>&lt;footer&gt;</strong> - Stopka - dokumentu /
                     sekcji
                   </li>
-                  <li>
+                  <li class="article-section__list-item">
                     <strong>&lt;h1-h6&gt;</strong> - Tekstowe nagłówki tytułowe
                     - dokumentu /sekcji
                   </li>
-                  <li><strong>&lt;p&gt;</strong> - Paragraf / akapit</li>
+                  <li class="article-section__list-item"><strong>&lt;p&gt;</strong> - Paragraf / akapit
+                  </li>
                 </ul>
               </li>
-              <li>
+              <li class="article-section__list-item">
                 Jak już myślisz, że stworzyłeś kawał niezłego kodu to w
                 pierwszej kolejności zaprasza
-                <a href="https://validator.w3.org/nu/#textarea" target="blank">
+                <a  class = "article-section__link" href="https://validator.w3.org/nu/#textarea" target="blank">
                   walidator HTML</a
                 >
               </li>
             </ul>
           </section>
 
-          <section class="item">
+          <section class="article-section">
             <h4 class="h4-header">Z ciekawostek...</h4>
-            <ul>
-              <li><kbd>!</kbd>+<kbd>Tab</kbd> - Tworzy szkielet strony</li>
-              <li>
+            <ul class="article-section__list">
+              <li class="article-section__list-item"><kbd>!</kbd>+<kbd>Tab</kbd> - Tworzy szkielet strony
+              </li>
+              <li class="article-section__list-item">
                 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> -> Format Document
                 - jak się można domyśleć formatuje dokument :)
               </li>
-              <li>
+              <li class="article-section__list-item">
                 Slack przydał się bardzo szybko :) Kiedy chcesz wpisać niektóre
                 znaki jako tekst są interpretowane przez HTML jako jego część
                 wtedy trzeba użyć charref np.
                 <kbd>& lt;</kbd> daje znak <kbd>&lt;</kbd>
               </li>
-              <li>
+              <li class="article-section__list-item">
                 wszystkie znaki do znalezienia pod poniższym linkiem
-                <a
+                <a class = "article-section__link"
                   href="https://dev.w3.org/html5/html-author/charref"
                   target="_blank"
                   >Znaki charref</a
@@ -231,9 +235,9 @@
     </main>
 
     <footer class="main-footer">
-      <p class="parag">
+      <p class="main-footer__paragraph">
         Copyright 2020 © Mariusz Wójcik
-        <a href="#top">Przejdz na górę strony</a>
+        <a  class="main-footer__link" href="#top">Przejdz na górę strony</a>
       </p>
     </footer>
   </body>
