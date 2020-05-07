@@ -72,12 +72,12 @@ body {
   width: fit-content;
 }
 
-.main-article__paragraph{
+.main-article__paragraph {
   margin: 0px 20px;
   font-size: 16px;
 }
 
-.article-section{
+.article-section {
   width: 100%;
   height: auto;
   background-color: #b4bdc0;
@@ -89,6 +89,21 @@ body {
   margin: 10px;
 }
 
+.article-section__text-color-red {
+  color: #fa0000;
+  font-size: 18px;
+}
+
+.article-section__text-color-blue {
+  color: #0013bb;
+  font-size: 18px;
+}
+
+.article-section__text-color-green {
+  color: #035500;
+  font-size: 18px;
+}
+
 .main-footer {
   background: #414749;
   padding: 25px 0;
@@ -97,29 +112,6 @@ body {
   color: #ffffff;
   text-align: center;
 }
-
-
-
-
-
-.text-color-1 {
-  color: #fa0000;
-  font-size: 18px;
-}
-
-.text-color-2 {
-  color: #0013bb;
-  font-size: 18px;
-}
-
-.text-color-3 {
-  color: #035500;
-  font-size: 18px;
-}
-
-
-
-
 
 /* Przycisk np. Tab*/
 kbd {
