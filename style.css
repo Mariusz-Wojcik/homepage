@@ -23,20 +23,19 @@ body {
   margin: 0px auto;
   text-align: center;
   max-width: 1140px;
+  overflow: hidden;
 }
 
 .main-header__image {
+  float: left;
   height: 150px;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: 100px;
+  width: auto;
+  margin-left: 150px;
 }
 
 .main-header__title {
-  vertical-align: middle;
   display: inline-block;
-  text-align: center;
-  margin-right: 200px;
+  margin-right: 300px;
 }
 
 .main-section {
