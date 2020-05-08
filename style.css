@@ -36,6 +36,11 @@ body {
 .main-header__title {
   display: inline-block;
   margin-right: 300px;
+  margin-top: 56.5px;
+}
+
+.main-header__title--homepage{
+  margin-top: 38px;
 }
 
 .main-section {
