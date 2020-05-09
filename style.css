@@ -119,6 +119,12 @@ body {
   text-align: center;
 }
 
+.JS_box{
+background-color: yellowgreen;
+padding:10px;
+border:2px solid black;
+display: inline-block;  
+}
 /* Przycisk np. Tab*/
 kbd {
   white-space: nowrap;
