@@ -43,6 +43,23 @@ body {
   margin-top: 38px;
 }
 
+.about-section{
+  background-color: #ffffff;
+  max-width: 1000px;
+  height: auto;
+  margin: 0px auto;
+  padding: 0px 0px 20px 0px;
+}
+
+.about-section__title{
+  margin: 10px; 
+}
+
+.about-section__paragraph{
+  margin: 0px 20px;
+  font-size: 16px;
+}
+
 .main-section {
   background-color: #ffffff;
   max-width: 1000px;
@@ -60,7 +77,7 @@ body {
   margin: 10px;
 }
 
-.main-section__WTF-font {
+.about-section__WTF-font {
   font-family: lazer84;
   color: #f9c802;
   background-color: #2d2241;
