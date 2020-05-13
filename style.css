@@ -127,6 +127,18 @@ body {
   font-size: 18px;
 }
 
+.link-section{
+  background-color: #ffffff;
+  max-width: 1000px;
+  height: auto;
+  margin: 0px auto;
+  padding: 0px 0px 20px 0px;
+}
+
+.link-section__title{
+  margin: 10px;
+}
+
 .main-footer {
   background: #414749;
   padding: 15px 0;
