@@ -8,6 +8,9 @@ body {
 }
 
 .navigation {
+  display:flex;
+  justify-content: space-between;
+
 	background-color: #003459;
 	padding: 10px 0px;
 	margin: 0px auto;
