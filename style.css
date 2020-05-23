@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
 @font-face {
 	font-family: "lazer84";
 	src: url("font/Lazer84.ttf");
