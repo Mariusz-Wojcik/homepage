@@ -8,8 +8,8 @@ body {
 }
 
 .navigation {
-  display:flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 
 	background-color: #003459;
 	padding: 10px 0px;
@@ -22,8 +22,8 @@ body {
 }
 
 .main-header {
-  display:flex;
-  justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 	background: linear-gradient(90deg, #c3c4ca, #968cf3);
 	margin: 0px auto;
 	max-width: 1140px;
@@ -38,13 +38,13 @@ body {
 }
 
 .main-header__title {
-  margin-left:220px;
+	margin-left: 220px;
 	margin-top: 56.5px;
 }
 
 .main-header__title--homepage {
-  margin-top: 38px;
-  margin-left: 100px;
+	margin-top: 38px;
+	margin-left: 100px;
 }
 
 .about-section {
