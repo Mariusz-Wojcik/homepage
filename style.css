@@ -22,29 +22,20 @@ body {
 }
 
 .main-header {
-	display: flex;
-	justify-content: flex-start;
-	background: linear-gradient(90deg, #c3c4ca, #968cf3);
-	margin: 0px auto;
 	max-width: 1140px;
-	overflow: hidden;
+	margin: 0px auto;
+	display:grid;
+	grid-template-columns: 350px 1fr 350px;
+	grid-template-rows: 150px;
+	justify-items: center;
 }
 
 .main-header__image {
-	float: left;
 	height: 150px;
-	width: auto;
-	margin-left: 150px;
 }
 
 .main-header__title {
-	margin-left: 220px;
-	margin-top: 56.5px;
-}
-
-.main-header__title--homepage {
-	margin-top: 38px;
-	margin-left: 100px;
+	text-align: center;
 }
 
 .about-section {
