@@ -1,9 +1,11 @@
 html {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-*, *:before, *:after{
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
 @font-face {
@@ -13,38 +15,49 @@ html {
 
 body {
 	background-color: #b9aeae;
+
+}
+
+.top-header {
+	background-color: #ffffff;
+	min-height: 60px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
 }
 
 .navigation {
-	display: flex;
-	justify-content: space-between;
-	background-color: #003459;
-	padding: 10px 0px;
-	margin: 0px auto;
-	max-width: 1140px;
+	display: none;
+	padding: 16px;
 }
+
 .navigation__link {
-	color: #ffffff;
+	display: block;
+	color: black;
 	padding: 0 10px;
+	margin: 0 0 16px;
+}
+
+main{
+	margin: 60px auto 0;
 }
 
 .main-header {
 	max-width: 1140px;
 	margin: 0px auto;
-	display:grid;
-	grid-template-columns: 350px 1fr;
-	grid-template-rows: 150px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
 	justify-items: center;
 	align-items: center;
 }
 
 .main-header__image {
-	height: 150px;
+	max-height: 150px;
 }
 
 .main-header__title {
 	text-align: center;
-	margin-right: 350px;
 }
 
 .about-section {
@@ -183,4 +196,65 @@ kbd {
 	white-space: nowrap;
 	display: inline-block;
 	margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+	.main-header {
+		display: grid;
+		grid-template-columns: 350px 1fr;
+		grid-template-rows: 150px;
+		justify-items: start;
+		align-items: center;
+	}
+
+	.main-header__image {
+		justify-self: center;
+	}
+
+	.main-header__title {
+		text-align: center;
+	}
+
+	.navigation {
+		display: flex;
+		justify-content: space-between;
+		background-color: #003459;
+		padding: 10px 0px;
+		margin: 0px auto;
+		width: 100%;
+	}
+	.navigation__link {
+		color: #ffffff;
+		padding: 0 10px;
+		margin: 10px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.main-header {
+		display: grid;
+		grid-template-columns: 350px 1fr;
+		grid-template-rows: 150px;
+		justify-items: center;
+		align-items: center;
+	}
+
+	.main-header__title {
+		text-align: center;
+		margin-right: 350px;
+	}
+
+	.navigation {
+		display: flex;
+		justify-content: space-between;
+		background-color: #003459;
+		padding: 10px 0px;
+		margin: 0px auto;
+		width: 100%;
+	}
+	.navigation__link {
+		color: #ffffff;
+		padding: 0 10px;
+		margin: 10px;
+	}
 }
