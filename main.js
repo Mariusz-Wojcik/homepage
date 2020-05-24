@@ -23,3 +23,9 @@ const welcome_new = (age, name, hook)=>{
 };
 
 welcome_new(age, name, hook);
+
+const hamburgher = document.querySelector('.hamburger--js');
+hamburgher.addEventListener('click', ()=>{
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})

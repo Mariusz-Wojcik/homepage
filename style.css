@@ -15,7 +15,6 @@ html {
 
 body {
 	background-color: #b9aeae;
-
 }
 
 .top-header {
@@ -35,7 +34,18 @@ body {
 	display: block;
 	color: black;
 	padding: 0 10px;
-	margin: 0 0 16px;
+	margin: 0px 0 16px;
+}
+
+.navigation--open{
+	display:block;
+	text-align: center;
+}
+
+.hamburger{
+	position: absolute;
+	top: 16px;
+	right: 16px;
 }
 
 main{
@@ -227,6 +237,10 @@ kbd {
 		color: #ffffff;
 		padding: 0 10px;
 		margin: 10px;
+	}
+
+	.hamburger{
+		display: none;
 	}
 }
 
