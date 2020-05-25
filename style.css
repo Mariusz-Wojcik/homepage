@@ -104,6 +104,15 @@ main{
 	margin: 10px;
 }
 
+.main-section__title::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: red;
+	border-radius: 50%;
+}
+
 .about-section__WTF-font {
 	font-family: lazer84;
 	color: #f9c802;
