@@ -207,21 +207,21 @@ main {
     display: block;
     text-align: center; }
 
+.text-color-blue {
+  color: #0013bb;
+  font-size: 18px; }
+
+.text-color-green {
+  color: #035500;
+  font-size: 18px; }
+
+.text-color-red {
+  color: #fa0000;
+  font-size: 18px; }
+
 .top-header {
   background-color: #ffffff;
   min-height: 60px;
   position: fixed;
   top: 0px;
   width: 100%; }
-
-.article-section__text-color-red {
-  color: #fa0000;
-  font-size: 18px; }
-
-.article-section__text-color-blue {
-  color: #0013bb;
-  font-size: 18px; }
-
-.article-section__text-color-green {
-  color: #035500;
-  font-size: 18px; }
