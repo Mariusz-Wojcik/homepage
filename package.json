@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Mariusz-Wojcik/homepage#readme",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
   "devDependencies": {
     "cowsay": "^1.4.0",
     "node-sass": "^4.14.1"
